@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Melisa Mendez" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/chihui.jpg" />
+    <!-- <link rel="shortcut icon" href="../img/limon_img_title.jpg" />-->
+    <title>Ejercicio_6</title>
+  </head>
+  <body>
+    <header>
+      <h1>Registrar un usuario</h1>
+    </header>
+    <div>
+      <form method="post" action="#">
+        <label for="nombre">Nombre del usuario </label><br />
+        <input type="text" name="nombre" id="nombre" />
+        <!--placeholder="Usuario o correo electr&oacute;nico"-->
+        <br />
+        <label for="contrasenia">Contraseña del usuario</label><br />
+        <input type="password" id="contrasenia" />
+        <!--placeholder=""-->
+        <br />
+     
+        <label for="edad">Edad del usuario</label><br />
+        <input type="number" id="edad" />
+        <br />
+     
+        <label for="fecha">Fecha de nacimiento del usuario</label><br />
+        <input type="date" id="fecha" />       
+        <br />
+     
+        <label for="sexo">Sexo del usuario</label>
+        <br/>
+        <input type="radio" id="sexo_h" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <br />
+        <input type="radio" id="sexo_m" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br />
+        <input type="radio" id="sexo_o" name="sexo" value="otro">
+        <label for="otro">Prefiero no decir</label>
+        <br />
+     
+        <label for="pais">Pa&iacute;s de nacimiento del usuario</label><br>
+        <select id="pais">
+            <option value="arg">Argentina</option>
+            <option value="par">Paraguay</option>
+            <option value="uru">Uruguay</option>
+            <option value="bra">Brasil</option>
+            <option value="chi">Chile</option>
+            <option value="otro">Otro</option>
+        </select>
+     <!---   <input type="submit" id="enviar" value="Enviar">
+        <input type="submit" id="borrar" value="Borrar">
+     -->
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+      </form>
+    </div>
+  </body>
+</html>
